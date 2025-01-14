@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 16px 240px;
+    padding: 16px 400px;
 }
 
 .logo {
@@ -40,7 +40,6 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 120px;
-    gap: 90px;
 }
 
 .hero-text {
@@ -83,6 +82,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .info-title {
@@ -116,4 +116,30 @@ body {
     margin: 5px 0;
     width: 150px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    margin-bottom: 120px;
+}
+
+.quote {    
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+.quotee {
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+    justify-self: flex-end;
+    margin: 0;
 }
