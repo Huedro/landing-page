@@ -125,7 +125,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    margin-bottom: 120px;
 }
 
 .quote {    
@@ -142,4 +141,35 @@ body {
     font-style: normal;
     justify-self: flex-end;
     margin: 0;
+}
+
+.call-action-section {
+    padding: 80px 200px;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;    
+    padding: 40px 100px;
+    border-radius: 8px;
+}
+
+.action-wrapper button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.action-wrapper p {
+    margin: 0;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: large;
 }
