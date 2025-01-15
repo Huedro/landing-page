@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 16px 250px;
+    padding: 16px 400px;
 }
 
 .logo {
@@ -124,7 +124,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .quote {    
@@ -159,7 +159,9 @@ body {
 .action-wrapper button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 6px 30px;
+    width: 120px;
+    height: 35px;
+    padding: 0px 30px;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
     font-weight: 700;
